@@ -1,0 +1,24 @@
+#demo1,
+#demo2 {
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+}
+#demo1 ul {
+    display: flex;
+    justify-content: flex-start;
+}
+#demo2 ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#demo1 ul li,
+#demo2 ul li {
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0 5px 10px;
+}
+
